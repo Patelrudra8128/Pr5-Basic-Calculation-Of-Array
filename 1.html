@@ -1,0 +1,94 @@
+ <!-- 1 -->
+<script type="text/javascript">
+    var arr = ["php","angular js","android","ruby","python"];
+
+    document.write("<p>-------1---------</p>");
+    document.write("<p>Array = "+arr+"</p>");
+    document.write("<p>Array sort = "+arr.sort()+"</p>");
+</script>
+
+<!-- 2 -->
+<script type="text/javascript">
+    var arr = ["php","angular js","android","ruby","python"]
+
+    document.write("<p>-------2---------</p>");
+    document.write("<p>Array = "+arr+"</p>");
+    document.write("<p>Array reverse = "+arr.reverse()+"</p>");
+</script>
+
+<!-- 3 -->
+<script type="text/javascript">
+    var arr = ["php","angular js","android","ruby","python"];
+    document.write("<p>-------3---------</p>");
+    document.write("<p>Array = "+arr+"</p>");
+
+    var ans = arr.pop();
+
+    document.write("<p>Array pop (remove last element) = "+arr+"</p>");
+</script>
+
+<!-- 4 -->
+<script type="text/javascript">
+    var arr = ["php","angular js","android","ruby","python"];
+    document.write("<p>-------4---------</p>");
+    document.write("<p>Array = "+arr+"</p>");
+
+    var ans = arr.unshift("Flutter");
+
+    document.write("<p>Array unshift (add first element) = "+arr+"</p>");
+</script>
+
+<!-- 5 -->
+<script type="text/javascript">
+    var str1 = "RED & WHITE";
+
+    document.write("<p>-------5---------</p>");
+    document.write("<p>String = "+str1+"</p>");
+    document.write("<p>String lowercase = "+str1.toLowerCase()+"</p>");
+</script>
+
+<!-- 6 -->
+<script type="text/javascript">
+    var str1 = "RED & WHITE";
+
+    document.write("<p>-------6---------</p>");
+    document.write("<p>String = "+str1+"</p>");
+    document.write("<p>String to array = "+Array.from(str1)+"</p>");
+</script>
+
+<!-- 7 -->
+<script type="text/javascript">
+    var arr = [1,2,3,4,5];
+    var add = 0;
+    
+    document.write("<p>-------7---------</p>");
+    document.write("<p>Array = "+arr+"</p>");
+    var ans = arr.map(function sum(v,i,a){
+        return add += v;
+    });
+
+    document.write("<p>Sum of all array elements = "+add+"</p>");
+</script>
+
+<!-- 8 -->
+<script type="text/javascript">
+    var arr = [1,-2,3,4,-5];
+    
+    document.write("<p>-------8---------</p>");
+    document.write("<p>Array = "+arr+"</p>");
+    var ans = arr.filter(function sum(v,i,a){
+        return v < 0;
+    });
+
+    document.write("<p>Negative elements of array = "+ans+"</p>");
+</script>
+
+<!-- 9 -->
+<script type="text/javascript">
+    var arr = ["php","angular js","android","ruby","python"];
+    
+    document.write("<p>-------9---------</p>");
+    document.write("<p>Array = "+arr+"</p>");
+    
+    document.write("<p>Array to String = "+arr.toString()+"</p>");
+</script>
